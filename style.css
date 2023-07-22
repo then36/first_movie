@@ -1,0 +1,135 @@
+:root{
+    --width-100per:100%;
+    --width-80per:80%;
+    --width-70per:70%;
+    --width-60per:60%;
+    --width-50per:50%;
+    --width-40per:40%;
+    --dark: rgb(0, 0, 0);
+    --light: rgb(254, 250, 250);
+    --dark-red: rgb(195, 0, 0);
+    --light-red: rgb(255, 44, 44);
+    
+}
+body {
+    margin: 0;
+}
+body {
+    font-style: italic; font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: 'Battambang', Arial, Helvetica, sans-serif;
+    background: #F6F6F6;
+}
+#top {
+    width: var(--width-100per);
+    position: relative;
+    background-color: var(--dark);
+    float: left;
+}
+.container {
+    width: var(--width-80per);
+    overflow: hidden;
+    margin: auto;
+    padding: 18px 0px 18px;
+}
+.logo {
+    width: 117px;
+    float: left;
+}
+.lozad {
+    width: 99px;
+    height: 99px;
+}
+.ads {
+    width: 99px;
+    float: right;
+}
+.iterm_ads {
+    float: right;
+    width: 700px;
+    height: 99px;
+}
+#menu {
+    width: 100%;
+    position: relative;
+    background-color: var(--light-red);
+    float: left;
+}
+#menu .container {
+    padding: 9px 0px 9px;
+}
+.container ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container ul li {
+    width: 18px;
+    float: left;
+}
+.icon {
+    width: 18px;
+    float: left;
+}
+.icon img {
+    height: 27px;
+    float: left;
+}
+.container ul li a {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+}
+.nav {
+    width: 100%;
+    position: relative;
+    float: left;
+    background-color: var(--light-red);
+}
+.men_nav {
+    width: 80%;
+    margin: auto;
+    background-color: black;
+    }
+
+#content {
+    width: 100%;
+    position: relative;
+    background-color: var(--light-red);
+    float: left;
+}
+#content  {
+    overflow: hidden;
+    background: none;
+}
+.view {
+    width: 560px;
+    height: 310px;
+}
+.view-img {
+    width: 400px;
+}
+    /* large device (desktops and phone, 70% and up) */
+    @media (mix-width= 70%) {
+        {
+            font-size: 1.5rem;
+        }
+    }
+    /* large device (desktops and phone, 60% and up) */
+    @media (mix-width= 60%) {
+         {
+            font-size: 1.5rem;
+            width: 70px;
+        }
+    }
+    /* large device (desktops and phone, 40% and up) */
+    @media (mix-width= 40%) {
+         {
+            font-size: 1.5rem;
+        }
+    }
+    
